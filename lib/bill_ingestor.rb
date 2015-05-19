@@ -14,7 +14,6 @@ class BillIngestor
     items.each do |item|
       create_card_for_item(item)
     end
-    @board
   end
 
   def get_items_from_bill(bill)

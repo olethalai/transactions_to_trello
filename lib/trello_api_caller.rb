@@ -3,9 +3,6 @@ require 'trello'
 
 class TrelloAPICaller
 
-  def initialize
-  end
-
   def create_card_on_board(board, card)
     # Get the ID of the list you want to add the card to
     list = board.lists.first
