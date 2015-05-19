@@ -1,6 +1,8 @@
 require 'rubygems'
 require 'trello'
+require 'minitest/autorun'
 
+$dynamic_bill_filepath = "bills/bill.txt"
 $default_board_name = ENV["BOARD"] || "TransactionTest"
 
 Before do |scenario|
